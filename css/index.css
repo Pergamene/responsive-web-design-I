@@ -65,182 +65,184 @@ h1, h2, h3, h4, h5 {
 
 /* Site Frame */
 .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100vw;
-    margin: 0 auto; /* centers inside body */
-    padding: 25px;
-    max-width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 900px;
 }
 
 /* Nav bar */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .links-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 500px;
-    flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  flex: 1;
 }
 
 .logo-container {
-    display: flex;
-    margin-left: 20px;
+  display: flex;
+  margin-left: 20px;
 }
 
 nav a {
-    font-size: 14px;
-    color: #757575;
-    text-decoration: none;
+  font-size: 14px;
+  color: #757575;
+  text-decoration: none;
 }
 
 nav a:hover {
-    color: #5393c0;
+  color: #5393c0;
+  cursor: pointer;
 }
 
 /* Header */
 .header {
-    font-size: 72px;
-    text-align: center;
+  font-size: 72px;
+  text-align: center;
 }
 
 header .half-container {
-    justify-content: center;
+  justify-content: center;
 }
 
 button {
-    font-size: 16px;
-    color: #757575;
-    padding: 0 30px;
-    height: 33px;
-    background-color: #fff;
-    cursor: pointer;
+  font-size: 16px;
+  color: #757575;
+  padding: 0 30px;
+  height: 33px;
+  background-color: #fff;
+  cursor: pointer;
 }
 
 button:hover {
-    color: #5393c0;
+  color: #5393c0;
+  border: 1px solid #5393c0;
+  cursor: pointer;
 }
 
 .button-center {
-    align-self: center;
-    background: none;
+  align-self: center;
+  background: none;
 }
 
 /* Headers */
 h1 {
-    text-transform: uppercase;
-    font-size: 28px;
+  text-transform: uppercase;
+  font-size: 28px;
+}
 
-  }
 /* Main */
 .main {
-    border-top: 2px solid #757575;
-    border-bottom: 2px solid #757575;
+  border-top: 2px solid #757575;
+  border-bottom: 2px solid #757575;
 }
 
 /* Column Sections */
-.halfs-container,
-.thirds-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 0;
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
 }
 
 .half-container:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .half-container {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 20px;
 }
 
 .half-container img {
-    width: 100%;
+  width: 100%;
 }
 
 .half-container:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .third-container {
-    flex: 1;
-    margin-left: 20px;
+  flex: 1;
+  margin-left: 20px;
 }
 
 /* Header Image */
 .header-img {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* Banner Image */
 .banner-img {
-    width: 100%;
+  width: 100%;
 }
 
 /* Contact */
 .contact {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
 .phone,
 .email {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 /* Footer */
 footer {
-    text-align: center;
+  text-align: center;
 }
 
 /* Pages */
 .page-description {
-    margin: 30px 0;
-    text-align: justify;
+  margin: 30px 0;
+  text-align: justify;
 }
 
 /* Services Page */
 .highlight-box {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    border: 1px solid #757575;
-    background-color: #f3f3f3;
-    margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #757575;
+  background-color: #f3f3f3;
+  margin-bottom: 30px;
 }
 
 .highlight-box:nth-child(5),
 .highlight-box:nth-child(6) {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .highlight-box button {
-    font-size: 12px;
-    border-radius: 5px;
-    margin-top: 20px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
 ul {
-    margin: 20px 0 20px 20px;
-    list-style: square;
+  margin: 20px 0 20px 20px;
+  list-style: square;
 }
 
 li {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 li:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 p {
-    line-height: 23px;
+  line-height: 23px;
 }
