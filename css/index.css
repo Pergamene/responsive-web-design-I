@@ -151,6 +151,7 @@ h1 {
 .text-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 30px 0;
 }
 
@@ -224,6 +225,12 @@ footer {
   margin-bottom: 0;
 }
 
+.half-container.highlight-box {
+  width: 48%;
+  flex: none;
+  margin-left: 0;
+}
+
 .highlight-box button {
   font-size: 12px;
   border-radius: 5px;
@@ -295,5 +302,10 @@ p {
   .half-container,
   .third-container {
     margin: 20px 0;
+  }
+
+  .half-container.highlight-box {
+    width: auto;
+    flex: 1;
   }
 }
