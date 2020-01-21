@@ -283,7 +283,7 @@ p {
     flex-direction: column;
     align-items: stretch;
     margin-left: -25px;
-    width: calc(100% + 50px);
+    width: 100vw;
     max-width: none;
   }
 
