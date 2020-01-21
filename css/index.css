@@ -281,6 +281,9 @@ p {
   .links-container {
     flex-direction: column;
     align-items: stretch;
+    margin-left: -25px;
+    width: calc(100% + 50px);
+    max-width: none;
   }
 
   .links-container a {
